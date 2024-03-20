@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta https-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TAUREX | Academia</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="scss/skin.css">
+    <link rel="stylesheet" href="scss/adicionales.css">
+    <link rel="icon" href="taurex.ico">
+    
+    <script src="https://kit.fontawesome.com/4dcacd0ba7.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="../script/index.js"></script>
+</head>
+
+<body id="wrapper">
+    <section id="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12 top-header-links">
+                    <ul class="contact_links">
+                        <li><i style="font-size: 15px;" class="fa fa-phone"></i><a href="#">(+57) 350 899 02 56</a></li>
+                        <li><i style="font-size: 15px;" class="fab fa-whatsapp"></i><a href="#">(+57) 320 375 4065</a></li>
+                        <li><i style="font-size: 15px;" class="fa fa-envelope"></i><a href="contacto.html">CONTACTO</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <ul class="social_links">
+                        <li><a href="https://www.facebook.com/academiataurex
+                            "><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/taurexacademia/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://wa.me/message/KITLKODVHAFPN1"><i class="fab fa-whatsapp"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCt7WGRB1SDPcqqhx7VXnJUw"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+                        <a class="navbar-brand" href="index.html">
+                            <img src="img/logo.png" alt="Logo Taurex">
+                        </a>
+                    </div>
+                    <div id="navbar" class="collapse navbar-collapse navbar-right">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="index.html">Inicio</a></li >
+                            <li class="menu-oculto"><a href="nuestraEmpresa.html">Nuestra Empresa</a>
+                                <ul class="sub-menu">
+                                    <li class="active"><a href="nuestraEmpresa.html#ancla1">¿Quiénes somos?</a></li>
+                                    <li class="active"><a href="nuestraEmpresa.html#ancla2">Plataforma Estratégica</a></li>
+                                    <li class="active"><a href="nuestraEmpresa.html#ancla3">Valores Corporativos</a></li>
+                                    <li class="active"><a href="nuestraEmpresa.html#ancla4">Principios Corporativos</a></li>
+                                    <li class="active"><a href="nuestraEmpresa.html#ancla5">Nuestro Equipo</a></li>
+                                </ul>
+                            <li class="menu-oculto"><a href="academia.html">Academia</a></li>
+                            <!-- <li class="menu-oculto"><a href="fondoIN.html">Consultoría en Inversión</a> -->
+                            <li><a href="login.html">Soy Estudiante</a></li>
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--/.nav-ends -->
+
+    <section class="banner__inicial">
+        <div class="grid__banner">
+            <div class="banner__section left__banner">
+                <div class="logo__academia">
+                    <!-- <img src="img/logo__white.png" alt=""> -->
+                </div>
+
+                <div class="text__banner">
+                    <h1>!Escríbenos!</h1>
+                    <h4>Recibe una asesoría completamente gratis.</h4>
+
+                    <ul>
+                        <li><a href="https://www.facebook.com/academiataurex"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/taurexacademia/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://wa.me/message/KITLKODVHAFPN1"><i class="fa fa-whatsapp"></i></a></li>
+                        <li> <a href="https://www.youtube.com/channel/UCt7WGRB1SDPcqqhx7VXnJUw"><i class="fab fa-youtube"></i></a> </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="banner__section right__banner flex-center">
+                <form action="php/enviar.php" method="POST">
+                    <div class="content__form">
+                        <div class="campos">
+                            <input  type="text" name="nombre1" required>
+                            <label for="">Nombre</label>
+                        </div>
+                        <div class="campos">
+                            <input type="text" name="apellido1" required>
+                            <label for="">Apellidos</label>
+                        </div>
+                        <div class="campos">
+                            <input  type="email" name="correo1" required>
+                            <label for="">Correo Electrónico</label>
+                        </div>
+                        <div class="campos">
+                            <input type="text" name="telefono1" required>
+                            <label for="">Teléfono</label>
+                        </div>
+
+                        <div class="campo__politicas">
+                            <input type="checkbox" required> <span> <a href="documents/condiciones.pdf">Acepto tratamiento de datos.</a></span> 
+                        </div>
+                    </div>
+                    
+                    <input class="btn btn-primary slide" type="submit" value="Enviar">
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container academia__flex">
+
+            <div class="content__academia__left">
+                <div class="content__academia__taurex">
+                    <h1> <span>|</span> Taurex Academia</h1>
+                </div>
+                
+                <div class="beneficios__academia">
+                    <span>¿POR QUÉ ESTUDIAR CON NOSOTROS? </span>
+
+                    <div class="campos__beneficios__academia">
+                        <i class="far fa-chart-bar"></i>
+                        <p> Análisis del mercado en vivo. </p>
+                    </div>
+                    <div class="campos__beneficios__academia">
+                        <i class="fas fa-book-reader"></i>
+                        <p> Acompañamiento personalizado. </p>
+                    </div>
+                    <div class="campos__beneficios__academia">
+                        <i class="fas fa-check-square"></i>
+                        <p> Calidad en la información </p>
+                    </div>
+                    <div class="campos__beneficios__academia">
+                        <i class="fas fa-headset"></i>
+                        <p> Clases 100% en tiempo real </p>
+                    </div>
+                </div>
+    
+                <a href="academia.html#ventajasAcademia" class="btn btn-primary slide boton__academia">Ver más</a>
+            </div>
+            
+            <div class="content__academia__right">
+                <!-- BACKGROUND CON FILTRO -->
+            </div>
+            
+        </div>
+        <div id="eventos"></div>
+    </section>
+
+
+    <section class="bg__eventos">
+        <div class="container">
+            <div class="grid__eventos">
+                <div class="title__eventos eventos__left">
+                    <div class="campos__eventos">
+                        <h2>Calendario de Eventos</h2>
+                        <h4>PROGRAMACIÓN DE CURSOS 2021</h4>
+                        <span> Entérate de toda la programación de nuestros cursos.</span>
+                    </div>
+                    <div class="campos__eventos">
+                        <ul>
+                            <li>El curso completo se divide en 3 módulos y  tiene una duración de 4 meses con un intervalo de tiempo entre cada uno.</li>
+                            <li>Cada módulo tiene una duración de 4 semanas.</li>
+                            <li> <span>MODALIDAD:</span> Taurex Academia ofrece sus cursos de manera virtual con el acompañamiento de los docentes en tiempo 100% real.</li>
+                            <li><span>HORARIO:</span> Las clases son de lunes a viernes de 19:00 hrs a 21:00 hrs. <br> Horario de Colombia.</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+                <div class="eventos__right">
+
+                    <div class="desplegable__eventos border__radius__top">
+                        <!-- contenido de curso -->
+                        <!-- <h3>¿Qué son los bancos centrales?</h3> -->
+                        <p>Desde:  <b>18/01/2021</b></p>
+                        <p>Hasta: <b>12/02/2021</b></p>
+                        <!-- <p class="parrafo-oculto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem distinctio labore, asperiores alias ab nam similique modi at consectetur laudantium inventore.</p> -->
+                        <!-- <span>Hora: 4pm - 6pm</span> -->
+                        <div class="grid___eventos__botones">
+                            <button class="button__eventos__inscripccion btn btn-primary slide"  onclick="location.href='https://taurex.typeform.com/to/UCNa35'">Inscripciones</button>
+                            <button class="button__eventos__inscripccion btn btn-primary slide boton-oculto" onclick="location.href='academia.html#nuestroPensum'">Temario</button>
+                        </div>
+                        
+                        <div class="desplegable__titulo__eventos border__radius__top">
+                            <!-- Titulo de cursos -->
+                            <!-- <h3>Marzo - 15 - 2021</h3> -->
+                            <h4>Curso 2021-1</h4>
+                            <h4>Ver más</h4>
+                        </div>
+                    </div>
+
+                    <div class="desplegable__eventos border__medium">
+                               <!-- contenido de curso -->
+                        <!-- <h3>¿Qué son los bancos centrales?</h3> -->
+                        <p>Desde:  <b>8/03/21</b></p>
+                        <p>Hasta: <b>2/04/21</b></p>
+                        <!-- <p class="parrafo-oculto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem distinctio labore, asperiores alias ab nam similique modi at consectetur laudantium inventore.</p> -->
+                        <!-- <span>Hora: 4pm - 6pm</span> -->
+                        <div class="grid___eventos__botones">
+                            <button class="button__eventos__inscripccion btn btn-primary slide"  onclick="location.href='https://taurex.typeform.com/to/UCNa35'">Inscripciones</button>
+                            <button class="button__eventos__inscripccion btn btn-primary slide boton-oculto" onclick="location.href='academia.html#nuestroPensum'">Temario</button>
+                        </div>
+                        
+                        <div class="desplegable__titulo__eventos border__medium">
+                            <!-- Titulo de cursos -->
+                            <!-- <h3>Marzo - 15 - 2021</h3> -->
+                            <h4>Curso 2021-2.</h4>
+                            <h4>Ver más</h4>
+                        </div>
+                    </div>
+
+                    <div class="desplegable__eventos border__medium">
+                             <!-- contenido de curso -->
+                        <!-- <h3>¿Qué son los bancos centrales?</h3> -->
+                        <p>Desde:  <b>12/04/21</b></p>
+                        <p>Hasta: <b>7/05/21</b></p>
+                        <!-- <p class="parrafo-oculto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem distinctio labore, asperiores alias ab nam similique modi at consectetur laudantium inventore.</p> -->
+                        <!-- <span>Hora: 4pm - 6pm</span> -->
+                        <div class="grid___eventos__botones">
+                            <button class="button__eventos__inscripccion btn btn-primary slide"  onclick="location.href='https://taurex.typeform.com/to/UCNa35'">Inscripciones</button>
+                            <button class="button__eventos__inscripccion btn btn-primary slide boton-oculto" onclick="location.href='academia.html#nuestroPensum'">Temario</button>
+                        </div>
+                        
+                        <div class="desplegable__titulo__eventos border__medium">
+                            <!-- Titulo de cursos -->
+                            <!-- <h3>Marzo - 15 - 2021</h3> -->
+                            <h4>Curso 2021-3.</h4>
+                            <h4>Ver más</h4>
+                        </div>
+                    </div>
+
+                    <div class="desplegable__eventos border__medium">
+                               <!-- contenido de curso -->
+                        <!-- <h3>¿Qué son los bancos centrales?</h3> -->
+                        <p>Desde:  <b>24/05/21</b></p>
+                        <p>Hasta: <b>18/06/21</b></p>
+                        <!-- <p class="parrafo-oculto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem distinctio labore, asperiores alias ab nam similique modi at consectetur laudantium inventore.</p> -->
+                        <!-- <span>Hora: 4pm - 6pm</span> -->
+                        <div class="grid___eventos__botones">
+                            <button class="button__eventos__inscripccion btn btn-primary slide"  onclick="location.href='https://taurex.typeform.com/to/UCNa35'">Inscripcciones</button>
+                            <button class="button__eventos__inscripccion btn btn-primary slide boton-oculto" onclick="location.href='academia.html#nuestroPensum'">Temario</button>
+                        </div>
+                        
+                        <div class="desplegable__titulo__eventos border__medium">
+                            <!-- Titulo de cursos -->
+                            <!-- <h3>Marzo - 15 - 2021</h3> -->
+                            <h4>Curso 2021-4.</h4>
+                            <h4>Ver más</h4>
+                        </div>
+                    </div>
+
+                    <div class="desplegable__eventos border__medium">
+                        <!-- contenido de curso -->
+                        <!-- <h3>¿Qué son los bancos centrales?</h3> -->
+                        <p>Desde:  <b>28/06/21</b></p>
+                        <p>Hasta: <b>23/07/21</b></p>
+                        <!-- <p class="parrafo-oculto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem distinctio labore, asperiores alias ab nam similique modi at consectetur laudantium inventore.</p> -->
+                        <!-- <span>Hora: 4pm - 6pm</span> -->
+                        <div class="grid___eventos__botones">
+                            <button class="button__eventos__inscripccion btn btn-primary slide"  onclick="location.href='https://taurex.typeform.com/to/UCNa35'">Inscripcciones</button>
+                            <button class="button__eventos__inscripccion btn btn-primary slide boton-oculto" onclick="location.href='academia.html#nuestroPensum'">Temario</button>
+                        </div>
+                        
+                        <div class="desplegable__titulo__eventos border__medium">
+                            <!-- Titulo de cursos -->
+                            <!-- <h3>Marzo - 15 - 2021</h3> -->
+                            <h4>Curso 2021-5.</h4>
+                            <h4>Ver más</h4>
+                        </div>
+                    </div>
+                    
+                    <div class="desplegable__eventos border__medium">
+                        <!-- contenido de curso -->
+                        <!-- <h3>¿Qué son los bancos centrales?</h3> -->
+                        <p>Desde:  <b>02/08/21</b></p>
+                        <p>Hasta: <b>27/08/21</b></p>
+                        <!-- <p class="parrafo-oculto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem distinctio labore, asperiores alias ab nam similique modi at consectetur laudantium inventore.</p> -->
+                        <!-- <span>Hora: 4pm - 6pm</span> -->
+                        <div class="grid___eventos__botones">
+                            <button class="button__eventos__inscripccion btn btn-primary slide"  onclick="location.href='https://taurex.typeform.com/to/UCNa35'">Inscripcciones</button>
+                            <button class="button__eventos__inscripccion btn btn-primary slide boton-oculto" onclick="location.href='academia.html#nuestroPensum'">Temario</button>
+                        </div>
+                        
+                        <div class="desplegable__titulo__eventos border__medium">
+                            <!-- Titulo de cursos -->
+                            <!-- <h3>Marzo - 15 - 2021</h3> -->
+                            <h4>Curso 2021-6.</h4>
+                            <h4>Ver más</h4>
+                        </div>
+                    </div>
+
+                    <div class="desplegable__eventos border__radius__bottom">
+                        <!-- contenido de curso -->
+                        <!-- <h3>¿Qué son los bancos centrales?</h3> -->
+                        <p>Desde:  <b>06/09/21</b></p>
+                        <p>Hasta: <b>01/10/21</b></p>
+                        <!-- <p class="parrafo-oculto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem distinctio labore, asperiores alias ab nam similique modi at consectetur laudantium inventore.</p> -->
+                        <!-- <span>Hora: 4pm - 6pm</span> -->
+                        <div class="grid___eventos__botones">
+                            <button class="button__eventos__inscripccion btn btn-primary slide"  onclick="location.href='https://taurex.typeform.com/to/UCNa35'">Inscripcciones</button>
+                            <button class="button__eventos__inscripccion btn btn-primary slide boton-oculto" onclick="location.href='academia.html#nuestroPensum'">Temario</button>
+                        </div>
+                        
+                        <div class="desplegable__titulo__eventos border__medium">
+                            <!-- Titulo de cursos -->
+                            <!-- <h3>Marzo - 15 - 2021</h3> -->
+                            <h4>Curso 2021-7.</h4>
+                            <h4>Ver más</h4>
+                        </div>
+                    </div>
+
+                    <div class="desplegable__eventos border__radius__bottom">
+                        <!-- contenido de curso -->
+                        <!-- <h3>¿Qué son los bancos centrales?</h3> -->
+                        <p>Desde:  <b>11/10/21</b></p>
+                        <p>Hasta: <b>05/11/21</b></p>
+                        <!-- <p class="parrafo-oculto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem distinctio labore, asperiores alias ab nam similique modi at consectetur laudantium inventore.</p> -->
+                        <!-- <span>Hora: 4pm - 6pm</span> -->
+                        <div class="grid___eventos__botones">
+                            <button class="button__eventos__inscripccion btn btn-primary slide"  onclick="location.href='https://taurex.typeform.com/to/UCNa35'">Inscripcciones</button>
+                            <button class="button__eventos__inscripccion btn btn-primary slide boton-oculto" onclick="location.href='academia.html#nuestroPensum'">Temario</button>
+                        </div>
+                        
+                        <div class="desplegable__titulo__eventos border__medium">
+                            <!-- Titulo de cursos -->
+                            <!-- <h3>Marzo - 15 - 2021</h3> -->
+                            <h4>Curso 2021-8.</h4>
+                            <h4>Ver más</h4>
+                        </div>
+                    </div>
+
+                    <div class="desplegable__eventos border__radius__bottom">
+                        <!-- contenido de curso -->
+                        <!-- <h3>¿Qué son los bancos centrales?</h3> -->
+                        <p>Desde:  <b>15/11/21</b></p>
+                        <p>Hasta: <b>10/12/21</b></p>
+                        <!-- <p class="parrafo-oculto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem distinctio labore, asperiores alias ab nam similique modi at consectetur laudantium inventore.</p> -->
+                        <!-- <span>Hora: 4pm - 6pm</span> -->
+                        <div class="grid___eventos__botones">
+                            <button class="button__eventos__inscripccion btn btn-primary slide"  onclick="location.href='https://taurex.typeform.com/to/UCNa35'">Inscripcciones</button>
+                            <button class="button__eventos__inscripccion btn btn-primary slide boton-oculto" onclick="location.href='academia.html#nuestroPensum'">Temario</button>
+                        </div>
+                        
+                        <div class="desplegable__titulo__eventos border__medium">
+                            <!-- Titulo de cursos -->
+                            <!-- <h3>Marzo - 15 - 2021</h3> -->
+                            <h4>Curso 2021-9.</h4>
+                            <h4>Ver más</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section>
+        <div class="container tarjeta__index__container">
+            <h1>¿Por que estudiar con nosotros?</h1>
+            <br>
+            <div class="content__tarjeta__index">
+                <div class="tarjeta__index">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <p>Acompañamiento personalizado</p>
+                </div>
+    
+                <div class="tarjeta__index">
+                    <i class="fas fa-info-circle"></i>
+                    <p>Calidad en la información</p>
+                </div>
+    
+                <div class="tarjeta__index tarjeta__completa">
+                    <i class="fas fa-satellite-dish"></i>
+                    <p>Clases 100% en tiempo real</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="testimonial">
+        <div class="container">
+            <div class="section-heading text-center">
+                <div class="col-md-12 col-xs-12">
+                    <h1>Nuestros Clientes <span>Opinan</span></h1>
+                    <p class="subheading">Gracias a todos los comentarios, nuestra empresa crece día a día.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- <div class="col-md-4 col-sm-12 block ">
+                    <div class="testimonial_box">
+                        <p>“Si no les queda claro algún tema, tienen soporte en guías y adicional a eso, pueden tomar asesorías personalizadas”. </p>
+                    </div>
+                    <div class="arrow-down"></div>
+                    <div class="testimonial_user">
+                        <div class="user-image"><img src="img/BrandonVega.jpg" alt="user" class="img-circle img-responsive" /></div>
+                        <div class="user-info">
+                            <h5>Brandon Vega</h5>
+                            <p>Estudiante Trading</p>
+                        </div>
+                    </div>
+                </div> -->
+
+
+                <div class="col-md-4 col-sm-12 block">
+                    <div class="testimonial_box">
+                        <p>“Encontré a TAUREX, encontré personas y profesores que son coherentes y que transmiten información de una manera fácil”. </p>
+                    </div>
+                    <div class="arrow-down"></div>
+                    <div class="testimonial_user">
+                        <div class="user-image"><img src="img/CesarSua.jpg" alt="user" class="img-circle img-responsive" /></div>
+                        <div class="user-info">
+                            <h5>Cesar Súa</h5>
+                            <p>Estudiante Trading</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12 block">
+                    <div class="testimonial_box">
+                        <p>“Conocer el Trading, fue como conocer un mundo nuevo”</p>
+                    </div>
+                    <div class="arrow-down"></div>
+                    <div class="testimonial_user">
+                        <div class="user-image"><img src="img/LuisSoto.jpg" alt="user" class="img-circle img-responsive" /></div>
+                        <div class="user-info">
+                            <h5>Luiz Soto</h5>
+                            <p>Estudiante Trading</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12 block">
+                    <div class="testimonial_box">
+                        <p>“Estoy muy satisfecha con todo el aprendizaje práctico que he adquirido”</p>
+                    </div>
+                    <div class="arrow-down"></div>
+                    <div class="testimonial_user">
+                        <div class="user-image"><img src="img/luciana.JPG" alt="user" class="img-circle img-responsive" /></div>
+                        <div class="user-info">
+                            <h5>Luciana</h5>
+                            <p>Estudiante Trading</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container__center">
+                <button onclick="location.href='testimoniales.html'"  class="btn btn-primary slide">Ver galería completa</button>
+            </div>
+        </div>
+    </section>  
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-12 <block></block>">
+                    <div class="footer-block">
+                        <h4>Nuestros Eventos</h4>
+                        <hr/>
+                        <ul class="footer-links">
+                            <!-- EVENTOS TAUREX -->
+                            <button class="btn btn-primary slide" onclick="location.href='index.html#eventos'">Ver eventos</button>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12 block">
+                    <div class="footer-block">
+                        <h4>Menú Inicial</h4>
+                        <hr/>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="nuestraEmpresa.html">Nuestra Empresa</a></li>
+                            <li><a href="academia.html">Academia</a></li>
+                            <!-- <li><a href="fondoIN.html">Consultoría en Inversión</a></li> -->
+                            <li><a href="login.html">Soy Estudiante</a></li>
+                        </ul>
+                    </div>
+                </div>  
+
+                <div class="col-md-3 col-sm-3 col-xs-12 block">
+                    <div class="footer-block">
+                        <h4>Ubicación</h4>
+                        <hr/>
+                        <!-- DIRECCION -->
+                        <p> Carrera 23 No. 122-89 Edificio Pino 23 </p>
+
+                        <!-- BOTONES -->
+                        <!-- <button onclick="location.href='contacto.html'" type="button" class="btn btn-primary slide">Leer más</button> -->
+                        <br> <br>
+                        <button onclick="location.href='https://taurex.typeform.com/to/UCNa35'" type="button" class="btn btn-primary slide">Regístrate</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="bottom-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12 btm-footer-links">
+                    <a href="documents/condiciones.pdf">Tratamiento de datos</a>
+                    <a href="documents/condiciones.pdf">Términos de Uso</a>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 copyright">
+                    Desarrollado por <a href="#">TAUREX</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="panel">
+        <div id="panel-admin">
+            <div class="panel-admin-box">
+                <div id="tootlbar_colors">
+                    <a href="https://taurex.typeform.com/to/UCNa35">Quiero Estudiar</a>
+                </div>
+            </div>
+        </div>
+        <a class="open" href="#"><span><i class="fas fa-graduation-cap"></i></span></a>
+        </div>
+    </div>
+
+    </body>
+</html>
